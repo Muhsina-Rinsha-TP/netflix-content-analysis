@@ -207,18 +207,51 @@ Although the analysis provides useful insights into Netflix's content catalogue,
 
 6. **Descriptive Analysis:** The findings describe patterns and statistical associations in the dataset; they do not establish causal relationships.
 
-## How to Run the Project
+## 🚀 How to Run the Project
 
-1. Clone or download this repository.
-2. Place `netflix_titles.csv` in the project folder.
-3. Install the required libraries:
+Follow these steps to run the Netflix Content Analysis project on your local machine.
+
+### 1. Clone the Repository
+
+```bash
+git clone YOUR_GITHUB_REPOSITORY_URL
+```
+
+### 2. Navigate to the Project Folder
+
+```bash
+cd netflix-content-analysis
+```
+
+### 3. Install Required Libraries
 
 ```bash
 pip install numpy pandas matplotlib seaborn scipy jupyter
 ```
 
-4. Open the notebook in VS Code or Jupyter Notebook.
-5. Run all cells to perform the analysis.
+### 4. Check Dataset
+
+Ensure that `netflix_titles.csv` is available in the project directory.
+
+### 5. Open the Jupyter Notebook
+
+```bash
+jupyter notebook
+```
+
+Alternatively, open `netflix_content_analysis.ipynb` directly using Visual Studio Code.
+
+### 6. Execute the Notebook
+
+Run all cells sequentially to perform:
+
+- Data loading and inspection.
+- Data cleaning and preprocessing.
+- Exploratory Data Analysis.
+- Statistical hypothesis testing.
+- Data visualization and dashboard generation.
+
+The analysis outputs are stored in the `outputs` folder.
 
 ## Author
 

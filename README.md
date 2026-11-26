@@ -191,12 +191,21 @@ Created a dashboard containing four visualizations:
 - Mann-Whitney U testing identified a significant difference between recent and older movie durations.
 - Recent movies have a median duration of 96 minutes, compared with 104 minutes for older movies.
 
-## Project Limitations
+## ⚠️ Project Limitations
 
-- The dataset represents a snapshot of Netflix's content catalogue.
-- Some records contain missing information.
-- Viewer ratings and streaming statistics are not available.
-- Titles associated with multiple countries or genres may appear in multiple category counts.
+Although the analysis provides useful insights into Netflix's content catalogue, some limitations should be considered:
+
+1. **Missing Data:** Several records contain missing information, particularly in the Director, Cast and Country columns. Missing values were handled using appropriate placeholders such as "Unknown".
+
+2. **Dataset Snapshot:** The dataset represents a snapshot of Netflix's catalogue and does not reflect real-time content additions or removals.
+
+3. **Limited Business Information:** The dataset does not contain viewer counts, streaming hours, revenue or audience engagement metrics.
+
+4. **Multi-Category Records:** Some titles are associated with multiple countries and genres. Consequently, category-wise counts may include the same title more than once.
+
+5. **Incomplete Metadata:** Some titles have missing ratings, durations or date-added information, which may affect specific analyses.
+
+6. **Descriptive Analysis:** The findings describe patterns and statistical associations in the dataset; they do not establish causal relationships.
 
 ## How to Run the Project
 

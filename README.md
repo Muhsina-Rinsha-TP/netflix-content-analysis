@@ -72,13 +72,49 @@ The analysis includes:
 - Director analysis.
 - Movie duration and TV Show seasons.
 
-### 4. Statistical Analysis
+## 📈 Statistical Analysis
 
-Three statistical methods were applied:
+Three statistical tests were performed to examine relationships and differences in the Netflix dataset.
 
-- Chi-Square Test
-- Spearman Rank Correlation
-- Mann-Whitney U Test
+### 1. Chi-Square Test (Content Type vs Audience Category)
+
+- **Chi-square statistic:** 69.78
+- **Degrees of freedom:** 3
+- **P-value:** 4.764 × 10⁻¹⁵
+
+**Interpretation:**
+
+The test showed a statistically significant association between content type (Movies and TV Shows) and audience category at the 5% significance level.
+
+This indicates that audience categories are distributed differently across Movies and TV Shows.
+
+### 2. Spearman Rank Correlation (Release Year vs Movie Duration)
+
+- **Spearman correlation (rho):** -0.191
+- **P-value:** 1.754 × 10⁻⁵¹
+
+**Interpretation:**
+
+A weak negative correlation was observed between movie release year and duration.
+
+This suggests that newer movies tend to have slightly shorter durations than older movies.
+
+### 3. Mann-Whitney U Test (Recent vs Older Movie Durations)
+
+- **U statistic:** 3,218,494
+- **P-value:** 7.365 × 10⁻⁵⁵
+- **Median duration of recent movies (2015+):** 96 minutes
+- **Median duration of older movies:** 104 minutes
+
+**Interpretation:**
+
+The test identified a statistically significant difference in movie durations between recent and older movies.
+
+Recent movies have a median duration of 96 minutes, compared to 104 minutes for older movies.
+
+### Statistical Analysis Summary
+
+All three statistical tests produced p-values below 0.05, indicating statistically significant findings in the analysed dataset.
 
 ### 5. Dashboard
 

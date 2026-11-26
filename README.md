@@ -160,13 +160,36 @@ Created a dashboard containing four visualizations:
 ### 10. Movie Duration Analysis
 ![Movie Duration](outputs/10_duration.png)
 
-## Key Findings
+## 🔍 Key Findings
 
-- Movies represent 69.6% of the catalogue, while TV Shows account for 30.4%.
-- The United States contributes the highest number of titles, followed by India and the United Kingdom.
-- International Movies are the most frequently listed genre, followed by Dramas and Comedies.
-- The average movie duration is 99.6 minutes.
-- Most TV Shows have one season, with an average of 1.8 seasons.
+### 1. Content Distribution
+- Total titles analysed: 8,807.
+- Movies account for 69.6% (6,131 titles) of the catalogue.
+- TV Shows represent 30.4% (2,676 titles).
+- Movies make up the majority of Netflix's content library.
+
+### 2. Country-wise Distribution
+- The United States contributes the highest number of titles.
+- India ranks second, followed by the United Kingdom.
+- This highlights the significant contribution of these countries to Netflix's content library.
+
+### 3. Genre Analysis
+- International Movies are the most frequently listed genre.
+- Dramas and Comedies are also among the most common genres.
+- International Movies and Dramas reached their highest counts around 2018, followed by a decline in subsequent years.
+
+### 4. Content Duration
+- Average movie duration: 99.6 minutes.
+- Median movie duration: 98 minutes.
+- Average TV Show seasons: 1.8.
+- Median TV Show seasons: 1 season.
+- Most TV Shows in the dataset have only one season.
+
+### 5. Statistical Insights
+- Chi-square testing identified a significant association between content type and audience category.
+- Spearman correlation showed a weak negative relationship between movie release year and duration.
+- Mann-Whitney U testing identified a significant difference between recent and older movie durations.
+- Recent movies have a median duration of 96 minutes, compared with 104 minutes for older movies.
 
 ## Project Limitations
 

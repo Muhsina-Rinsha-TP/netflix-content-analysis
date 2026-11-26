@@ -92,6 +92,38 @@ Created a dashboard containing four visualizations:
 
 ![Netflix Dashboard](outputs/00_dashboard.png)
 
+## 📊 Data Visualizations
+
+### 1. Movies vs TV Shows Distribution
+![Movies vs TV Shows](outputs/01_type_split.png)
+
+### 2. Release Year Trend
+![Release Year Trend](outputs/02_release_year_trend.png)
+
+### 3. Content Added Per Year
+![Content Added Per Year](outputs/03_added_per_year.png)
+
+### 4. Content Added by Month
+![Content Added by Month](outputs/04_added_by_month.png)
+
+### 5. Top 10 Countries
+![Top Countries](outputs/05_top_countries.png)
+
+### 6. Content Ratings and Audience
+![Ratings and Audience](outputs/06_ratings_audience.png)
+
+### 7. Top Genres
+![Top Genres](outputs/07_top_genres.png)
+
+### 8. Genre Trends
+![Genre Trends](outputs/08_genre_trend.png)
+
+### 9. Top Directors
+![Top Directors](outputs/09_top_directors.png)
+
+### 10. Movie Duration Analysis
+![Movie Duration](outputs/10_duration.png)
+
 ## Key Findings
 
 - Movies represent 69.6% of the catalogue, while TV Shows account for 30.4%.

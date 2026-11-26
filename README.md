@@ -88,6 +88,10 @@ Created a dashboard containing four visualizations:
 - Top 10 countries.
 - Top 12 genres.
 
+### Netflix Content Analysis Dashboard
+
+![Netflix Dashboard](outputs/00_dashboard.png)
+
 ## Key Findings
 
 - Movies represent 69.6% of the catalogue, while TV Shows account for 30.4%.
